@@ -1,7 +1,14 @@
 
 
 
+# The following package if not installed on your computer: 
+# 
+install.packages("dplyr")
+install.packages("biostat3")
 
+library(dplyr)
+library(biostat3)
+library(survival)
 
 
 # Import the dataset
